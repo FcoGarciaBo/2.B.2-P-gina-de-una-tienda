@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo css2.css">
+</head>
+<body>
+        <h1>Formulario de información</h1>
+    <form action="formulario.php" method="post">
+    <fieldset>
+        <legend>Datos para solicitud de información</legend>
+        <p><label for="N y A">Nombre y Apellidos</label> <input type="text" id="N y A" maxlength="50"></p>
+        <p><label for="Contraseña">Contraseña</label> <input type="tex" id="Contraseña" maxlength="8"></p>
+        <p><label for="Usuario">Usuario</label> <input type="text" id="Usuario" disabled value="anonimo"></p>
+        <p><label for="Nivel">Nivel</label></p>
+        <p><input type="radio" name="Nivel"> Principiante</p> 
+        <p><input type="radio" name="Nivel"> Avanzado</p>
+        <p><input type="radio" name="Nivel"> Profesional</p>   
+    </fieldset>
+        <p>Nacionalidad <select name="Nacionalidad">
+            <option value="Nacionalidad">....</option>
+            <option value="ESP">Española</option>
+            <option value="UE">Union Europea</option>
+            <option value="NoUE">Fuera de la Unión europea</option>            
+        </select>
+        </p>
+        <p>Descripción <textarea name="Comentarios" rows="5" cols="40" id="">Esbriba aquí informacion adicional</textarea></p>
+        <p><input type="checkbox"> Deseo recibir información sobre novedades y ofertas.</p>
+        <p><input type="checkbox"> He leído y acepto las condiciones generales sobre protección de datos.</p>
+        <p>Adjuntar foto: <input type="file"></p>
+        
+        <p>
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Borrar">
+        </p>
+        </form>
+        <a style="text-decoration: none;" href="index.html">Volver</a>
+</body>
+</html>

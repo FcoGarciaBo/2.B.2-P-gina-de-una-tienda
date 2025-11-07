@@ -1,0 +1,12 @@
+h1{font-size:50px;color:#D2691E;text-align: center; font-family: "Pacifico",cursive;}
+h2{font-size: 30px; color:#00008B; font-family: "Caveat", cursive;}
+h3{font-size:25px; color:#008B8D; font-family:Arial, Helvetica, sans-serif;}
+p{font-family: Arial, Helvetica, sans-serif}
+ul{font-family: Arial, Helvetica, sans-serif;}
+a{text-decoration: none;}
+a:link{text-decoration: none}
+a:visited{color:grey;}
+a:hover{font-weight: bold; color: red}
+a:active{color: green;}
+table,th,td{width: 33%; border:1px solid brown; border-collapse: collapse;
+background-color: antiquewhite; margin:auto};
